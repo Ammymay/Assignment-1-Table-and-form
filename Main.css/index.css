@@ -1,0 +1,11 @@
+/* universal selector */
+* {
+    background-color: rgb(244, 243, 205); 
+}
+/* Type selector */
+h1 {
+    font-style: oblique;
+}
+.footer {
+    border: 1px solid black;
+}

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms and Tables</title>
+    <link rel="stylesheet" href="/Main.css/index.css">
 </head>
-<body>
-    <h1 style="color: brown;">Product Description Table & Feedback</h1>
+<body style="margin: 1cm;">
+    <h1 style="color: rgb(228, 10, 10);">Product Description Table & Feedback</h1>
+    <img src="/Images/chickenr.png" width="40" lenght="40" alt="our logo" style="position: relative;">   
     <!-- Tables -->
-    <table border="1" style="border-collapse: collapse">
+    <table border="2" colour="solid black" style="border-collapse: collapse">
 <tr>
 <th>Product Name</th>
 <th>Description</th>
@@ -43,8 +45,9 @@
     <br>
 
     <!-- Form for user feedback -->
-     <h2 style="color: brown;">Feedback Section</h2>
-     <p>We would like to here from you</p>
+     <h1 style="color: rgb(227, 7, 7);">Feedback Section</h1>
+     <p style="font-size: 22px;">We would like to here from you.</p>
+     <p>Kindly fill out the form below, Thank you.</p>
     <form action="">
  <div>
      <label for="name">Name</label>
@@ -58,10 +61,11 @@
     placeholder="Enter your email">
    </div>
    <br>
+   <br>
    <!-- Dropdown -->
    <div>
     <label for="rating">Rate us</label>
-    <select name="Rating" id="rating">
+    <select name="Rating" id="rating" style="width: 5cm;">
 <option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
@@ -69,22 +73,31 @@
 <option value="5">5</option>
     </select>
     <br>
+    <br>
    </div>
    <label for="message">Drop your feedback</label>
    <textarea name="message" id="message" rows="4" cols="24"></textarea>
    <div>
     <br>
-    <input type="submit">
+    <input type="submit" style="width: 5cm;">
    </div>
     </form>
     <br>
-    <footer><p>Click here to follow us on our social media:
-    <a href="https://www.facebook.com/ChickenRepublic/" target="blank"><img 
-        src="/Images/icons8-facebook-30.png" >Facebook</a>
-     <a href="https://www.instagram.com/chickenrepublic/?hl=en" 
-        target="blank"><img src="/Images/icons/image.png"width="30" 
-        length="30">instagram</a>
-    </p>
+    <footer><p>Click here to follow us on our social media:</p>
+   
+   <ul class="footer">
+        <li><a href="https://www.facebook.com/ChickenRepublic/" target="blank"><img 
+        src="Images/facebook.png" width="30" lenght="30" >Facebook</a></li>
+        <li> <a href="https://www.instagram.com/chickenrepublic/?hl=en" 
+            target="blank"><img 
+        src="/Images/instagram.png" width="30" lenght="30">instagram</a>
+       </li>
+       <li><a href="https://x.com/ChickenRepublic?mx=2" target="_blank"><img 
+        src="/Images/x.png" width="30" lenght="30" alt="X">Twitter</a>
+
+       </li>
+   </ul>     
+    
     </footer>
 </body>
 </html>
